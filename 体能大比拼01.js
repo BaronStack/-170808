@@ -12,7 +12,6 @@ function isPrime(i) {
 function decompose(count_num) {
     let result = '';
     let i = 2;
-    // let count = count_num;
     while (i < count_num) {
         if(count_num % i === 0) {
             if (isPrime(i) === true) {
