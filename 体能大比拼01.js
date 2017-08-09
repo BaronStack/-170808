@@ -9,6 +9,7 @@ function isPrime(i) {
     }
     return true;
 }
+
 function decompose(count_num) {
     let result = '';
     let i = 2;
