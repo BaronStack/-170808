@@ -6,8 +6,9 @@
  斐波纳契数列的前10个数字是：
  0, 1, 1, 2, 3, 5, 8, 13, 21, 34 …
  */
+
 //非递归
-/*function find_fib(num) {
+function find_fib(num) {
     let fib_num  = [];
     fib_num[0] = 0;
     fib_num[1] = 1;
@@ -16,7 +17,8 @@
         fib_num[i] = fib_num[i-1] + fib_num[i-2];
     }
     return fib_num[num - 1];
-}*/
+}
+
 //递归
 function find_fib(num) {
     if (num === 1)
