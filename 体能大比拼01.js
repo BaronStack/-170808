@@ -1,5 +1,5 @@
 /**
- * Created by MYPRO on 2017/8/8.
+ * 将一个正整数分解质因数。例如：输入90,打印出90=2335
  */
 function isPrime(i) {
     for (let num = 2;num < Math.sqrt(i); ++i) {
